@@ -24,10 +24,7 @@ export default () => {
         accept: 'Accept',
         en: 'English',
         de: 'Deutsch',
-        zh: '简体中文',
-        pt: '󠁥󠁮󠁧󠁿Português',
-        id: '󠁥󠁮󠁧󠁿Bahasa Indonesia',
-        ar: '󠁥󠁮󠁧󠁿العربيّة',
+        fr: 'French',
         notif_msg: 'Dies ist ein Beispiel für eine Nachricht, die häufig für wichtige Informationen für Besucher oder Benutzer verwendet wird. Bitte klicken Sie auf die Schaltfläche neben, um diese Nachricht zu schließen.'
       },
       agencyLanding: {

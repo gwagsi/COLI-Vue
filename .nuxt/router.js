@@ -4,9 +4,9 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _2620f54b = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
-const _50519082 = () => interopDefault(import('..\\pages\\blank-page.vue' /* webpackChunkName: "pages/blank-page" */))
-const _13096559 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
+const _5d3f42f9 = () => interopDefault(import('..\\pages\\blank-page.vue' /* webpackChunkName: "pages/blank-page" */))
+const _f9e49742 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
+const _3a4d645e = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -20,76 +20,40 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/ar",
-    component: _2620f54b,
-    name: "index___ar"
-  }, {
     path: "/blank-page",
-    component: _50519082,
+    component: _5d3f42f9,
     name: "blank-page___en"
   }, {
     path: "/contact",
-    component: _13096559,
+    component: _f9e49742,
     name: "contact___en"
   }, {
     path: "/de",
-    component: _2620f54b,
+    component: _3a4d645e,
     name: "index___de"
   }, {
-    path: "/id",
-    component: _2620f54b,
-    name: "index___id"
-  }, {
-    path: "/pt",
-    component: _2620f54b,
-    name: "index___pt"
-  }, {
-    path: "/zh",
-    component: _2620f54b,
-    name: "index___zh"
-  }, {
-    path: "/ar/blank-page",
-    component: _50519082,
-    name: "blank-page___ar"
-  }, {
-    path: "/ar/contact",
-    component: _13096559,
-    name: "contact___ar"
+    path: "/fr",
+    component: _3a4d645e,
+    name: "index___fr"
   }, {
     path: "/de/blank-page",
-    component: _50519082,
+    component: _5d3f42f9,
     name: "blank-page___de"
   }, {
     path: "/de/contact",
-    component: _13096559,
+    component: _f9e49742,
     name: "contact___de"
   }, {
-    path: "/id/blank-page",
-    component: _50519082,
-    name: "blank-page___id"
+    path: "/fr/blank-page",
+    component: _5d3f42f9,
+    name: "blank-page___fr"
   }, {
-    path: "/id/contact",
-    component: _13096559,
-    name: "contact___id"
-  }, {
-    path: "/pt/blank-page",
-    component: _50519082,
-    name: "blank-page___pt"
-  }, {
-    path: "/pt/contact",
-    component: _13096559,
-    name: "contact___pt"
-  }, {
-    path: "/zh/blank-page",
-    component: _50519082,
-    name: "blank-page___zh"
-  }, {
-    path: "/zh/contact",
-    component: _13096559,
-    name: "contact___zh"
+    path: "/fr/contact",
+    component: _f9e49742,
+    name: "contact___fr"
   }, {
     path: "/",
-    component: _2620f54b,
+    component: _3a4d645e,
     name: "index___en"
   }],
 

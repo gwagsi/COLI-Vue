@@ -24,10 +24,7 @@ export default () => {
         accept: 'Accept',
         en: 'English',
         de: 'Deutsch',
-        zh: '简体中文',
-        pt: '󠁥󠁮󠁧󠁿Português',
-        id: '󠁥󠁮󠁧󠁿Bahasa Indonesia',
-        ar: '󠁥󠁮󠁧󠁿العربيّة',
+        fr: 'Français',
         notif_msg: 'This is an example of a message that is commonly used for important information to visitors or users. Please click the button beside to close this message.'
       },
       agencyLanding: {
@@ -39,7 +36,7 @@ export default () => {
         header_our_office: 'our office',
         header_contact: 'contact',
         header_language: 'language',
-        header_theme: 'theme mode',
+        header_theme: 'Settings',
         header_dark: 'dark',
         header_light: 'light',
         banner_title: 'Create Business Solution',

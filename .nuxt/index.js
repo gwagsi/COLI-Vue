@@ -13,12 +13,12 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_733a8c40 from 'nuxt_plugin_plugin_733a8c40' // Source: .\\vuetify\\plugin.js (mode: 'all')
-import nuxt_plugin_pluginutils_581fb697 from 'nuxt_plugin_pluginutils_581fb697' // Source: .\\nuxt-i18n\\plugin.utils.js (mode: 'all')
-import nuxt_plugin_pluginrouting_f5e60bbc from 'nuxt_plugin_pluginrouting_f5e60bbc' // Source: .\\nuxt-i18n\\plugin.routing.js (mode: 'all')
-import nuxt_plugin_pluginmain_4fbe16e6 from 'nuxt_plugin_pluginmain_4fbe16e6' // Source: .\\nuxt-i18n\\plugin.main.js (mode: 'all')
-import nuxt_plugin_nuxtgooglemaps_131fcfc0 from 'nuxt_plugin_nuxtgooglemaps_131fcfc0' // Source: .\\nuxt-google-maps.js (mode: 'all')
-import nuxt_plugin_nuxtmq_2d078bff from 'nuxt_plugin_nuxtmq_2d078bff' // Source: .\\nuxt-mq.js (mode: 'all')
+import nuxt_plugin_plugin_7b0610b6 from 'nuxt_plugin_plugin_7b0610b6' // Source: .\\vuetify\\plugin.js (mode: 'all')
+import nuxt_plugin_pluginutils_af7c5126 from 'nuxt_plugin_pluginutils_af7c5126' // Source: .\\nuxt-i18n\\plugin.utils.js (mode: 'all')
+import nuxt_plugin_pluginrouting_552a3d78 from 'nuxt_plugin_pluginrouting_552a3d78' // Source: .\\nuxt-i18n\\plugin.routing.js (mode: 'all')
+import nuxt_plugin_pluginmain_9d273e12 from 'nuxt_plugin_pluginmain_9d273e12' // Source: .\\nuxt-i18n\\plugin.main.js (mode: 'all')
+import nuxt_plugin_nuxtgooglemaps_2c48c916 from 'nuxt_plugin_nuxtgooglemaps_2c48c916' // Source: .\\nuxt-google-maps.js (mode: 'all')
+import nuxt_plugin_nuxtmq_d8c2cc2e from 'nuxt_plugin_nuxtmq_d8c2cc2e' // Source: .\\nuxt-mq.js (mode: 'all')
 import nuxt_plugin_vuewowconfig_32ee3066 from 'nuxt_plugin_vuewowconfig_32ee3066' // Source: ..\\plugins\\vue-wow-config (mode: 'all')
 import nuxt_plugin_vuefragmentconfig_12a6b83c from 'nuxt_plugin_vuefragmentconfig_12a6b83c' // Source: ..\\plugins\\vue-fragment-config (mode: 'all')
 import nuxt_plugin_vuelightboxconfig_28f6899d from 'nuxt_plugin_vuelightboxconfig_28f6899d' // Source: ..\\plugins\\vue-lightbox-config (mode: 'client')
@@ -222,28 +222,28 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_733a8c40 === 'function') {
-    await nuxt_plugin_plugin_733a8c40(app.context, inject)
+  if (typeof nuxt_plugin_plugin_7b0610b6 === 'function') {
+    await nuxt_plugin_plugin_7b0610b6(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginutils_581fb697 === 'function') {
-    await nuxt_plugin_pluginutils_581fb697(app.context, inject)
+  if (typeof nuxt_plugin_pluginutils_af7c5126 === 'function') {
+    await nuxt_plugin_pluginutils_af7c5126(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginrouting_f5e60bbc === 'function') {
-    await nuxt_plugin_pluginrouting_f5e60bbc(app.context, inject)
+  if (typeof nuxt_plugin_pluginrouting_552a3d78 === 'function') {
+    await nuxt_plugin_pluginrouting_552a3d78(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginmain_4fbe16e6 === 'function') {
-    await nuxt_plugin_pluginmain_4fbe16e6(app.context, inject)
+  if (typeof nuxt_plugin_pluginmain_9d273e12 === 'function') {
+    await nuxt_plugin_pluginmain_9d273e12(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxtgooglemaps_131fcfc0 === 'function') {
-    await nuxt_plugin_nuxtgooglemaps_131fcfc0(app.context, inject)
+  if (typeof nuxt_plugin_nuxtgooglemaps_2c48c916 === 'function') {
+    await nuxt_plugin_nuxtgooglemaps_2c48c916(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxtmq_2d078bff === 'function') {
-    await nuxt_plugin_nuxtmq_2d078bff(app.context, inject)
+  if (typeof nuxt_plugin_nuxtmq_d8c2cc2e === 'function') {
+    await nuxt_plugin_nuxtmq_d8c2cc2e(app.context, inject)
   }
 
   if (typeof nuxt_plugin_vuewowconfig_32ee3066 === 'function') {
