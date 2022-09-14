@@ -22,7 +22,12 @@ export default () => {
         form_send: 'Envoyer le message',
         accept: 'Accepter',
         en: 'English',
-        fr: 'French',
+        fr:'Français',
+        de: 'Deutsch',
+        zh: '简体中文',
+        pt: '󠁥󠁮󠁧󠁿Português',
+        id: '󠁥󠁮󠁧󠁿Bahasa Indonesia',
+        ar: '󠁥󠁮󠁧󠁿العربيّة',
         notif_msg: "Il s'agit d'un exemple de message couramment utilisé pour transmettre des informations importantes aux visiteurs ou aux utilisateurs. Veuillez cliquer sur le bouton à côté pour fermer ce message."
       },
       agencyLanding: {

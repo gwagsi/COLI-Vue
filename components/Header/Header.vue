@@ -118,7 +118,7 @@
 </style>
 
 <script>
-import logo from '~/static/images/agency-logo.svg'
+import logo from '~/static/images/logo-removebg-preview.png'
 import link from '~/static/text/link'
 import brand from '~/static/text/brand'
 import navMenu from './menu'

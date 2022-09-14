@@ -22,6 +22,7 @@ export default () => {
         form_send: 'Enviar mensagem',
         accept: 'aceitar',
         en: 'English',
+        fr:'Français',
         de: 'Deutsch',
         zh: '简体中文',
         pt: '󠁥󠁮󠁧󠁿Português',

@@ -1,13 +1,13 @@
 const brand = {
   agency: {
-    name: 'COHlIHWEB',
-    desc: 'COHlIHWEB - Best software Development Company',
+    name: 'COHLIHAWEB',
+    desc: 'Cohlihaweb - Best software Development Company',
     prefix: 'Coli',
-    footerText: 'COHlIHWEB - All Rights Reserved 2022',
-    logoText: 'Cohlihweb',
+    footerText: 'COHLIHAWEB - All Rights Reserved 2022',
+    logoText: 'COHLIHAWEB',
     projectName: 'Best software Development Company',
     url: '/',
-    img: '/static/images/coli.png',
+    img: '/static/images/logo-removebg-preview.png',
     notifMsg:
       'Best software Development Company'
   }

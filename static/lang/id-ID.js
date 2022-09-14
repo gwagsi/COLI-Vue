@@ -23,6 +23,7 @@ export default () => {
         form_send: 'Kirim Pesan',
         accept: 'Setuju',
         en: 'English',
+        fr:'Français',
         de: 'Deutsch',
         zh: '简体中文',
         pt: '󠁥󠁮󠁧󠁿Português',
