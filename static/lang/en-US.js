@@ -10,7 +10,7 @@ export default () => {
           'You can either stay and chill here, or go back to the beginning.',
         back: 'back to home',
         error_without_status: 'An error occurred on the server',
-        contact_title: 'Free Project Quote',
+        contact_title: 'Project Quote',
         contact_subtitle:
           'Do you have any questions? Are you ready to reduce cost and create new revenue? Or you simply want to say hi? Drop us a message.',
         form_name: 'What is your name? *',
@@ -45,7 +45,7 @@ export default () => {
         banner_button: 'write to us',
         about_title: 'About us',
         about_subtitle:
-          'Through our large capacity we dare to say we are different.',
+          'Through our hardworking and diversified team we dare to say we are different.',
         about_employee: 'employee',
         about_projects: 'projects',
         about_client: 'clients',
@@ -57,7 +57,7 @@ export default () => {
         expertise_subtitle:
           'A successful project is built with a successful team.',
         expertise_paragraph:
-          'Which is why we provide you with the human resources you need to build whenever you need them. Our on_shoring & near offshoring teams are trained and supervised as part of Us. Your team is dedicated to your projects. And the team is flexible!',
+          'Which is why we provide you with the human resources you need to build whenever you need them. Our  teams are trained and supervised as part of Us. Our team is dedicated to your projects. And the team is flexible!',
         testimonial_title: 'client testimonials',
         case_title: 'Case studies',
         cta_title: 'Ready to get started?',
