@@ -7,7 +7,7 @@ const brand = {
     logoText: 'Cohlihweb',
     projectName: 'Best software Development Company',
     url: '/',
-    img: '/static/images/agency-logo.png',
+    img: '/static/images/coli.png',
     notifMsg:
       'Best software Development Company'
   }

@@ -36,6 +36,14 @@ export const routerOptions = {
     component: _3a4d645e,
     name: "index___fr"
   }, {
+    path: "/id",
+    component: _3a4d645e,
+    name: "index___id"
+  }, {
+    path: "/pt",
+    component: _3a4d645e,
+    name: "index___pt"
+  }, {
     path: "/de/blank-page",
     component: _5d3f42f9,
     name: "blank-page___de"
@@ -51,6 +59,22 @@ export const routerOptions = {
     path: "/fr/contact",
     component: _f9e49742,
     name: "contact___fr"
+  }, {
+    path: "/id/blank-page",
+    component: _5d3f42f9,
+    name: "blank-page___id"
+  }, {
+    path: "/id/contact",
+    component: _f9e49742,
+    name: "contact___id"
+  }, {
+    path: "/pt/blank-page",
+    component: _5d3f42f9,
+    name: "blank-page___pt"
+  }, {
+    path: "/pt/contact",
+    component: _f9e49742,
+    name: "contact___pt"
   }, {
     path: "/",
     component: _3a4d645e,

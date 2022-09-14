@@ -29,16 +29,15 @@ const imgAPI = {
     'https://via.placeholder.com/640x425/c4cdff/757575'
   ],
   agency: [
-    './images/new/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg',
-    'https://via.placeholder.com/1280x825/99d8ff/FFFFFF',
-    'https://via.placeholder.com/490x327/ffc999/FFFFFF',
-    'https://via.placeholder.com/490x327/ffc999/FFFFFF',
-    'https://via.placeholder.com/490x327/ffc999/FFFFFF',
-    'https://via.placeholder.com/331x690/fdcc0c/FFFFFF',
-    'https://via.placeholder.com/521x309/4a0cfd/FFFFFF',
-    'https://via.placeholder.com/521x309/ffe55b/FFFFFF',
-    'https://via.placeholder.com/713x309/79c0ff/FFFFFF',
-    'https://via.placeholder.com/711x693/52596b/FFFFFF'
+    './images/agency/web.jpg',
+    './images/agency/mobile.jpg',
+    './images/agency/content.png',
+    './images/agency/ecommerce.webp',
+    './images/agency/download.png',
+    './images/agency/graphic.jpg',
+    './images/agency/SEO.png',
+    './images/agency/mobile.jpg',
+    './images/agency/mobile.jpg',
   ]
 }
 

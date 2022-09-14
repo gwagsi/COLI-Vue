@@ -1,69 +1,66 @@
 export default () => {
-    return new Promise(function(resolve) {
-      resolve({
-        common: {
-          title: '一个简单的例子',
-          subtitle: '这是一个空白页面。从这里开始建立你的页面。',
-          error_with_status: '服务器上发生错误',
-          '404': '无法找到此页面。',
-          '404_subtitle': '你可以留在这里冷静，或者回到起点。',
-          back: '回到家',
-          error_without_status: '服务器上发生错误',
-          contact_title: '免费项目报价',
-          contact_subtitle:
-            '你有什么问题吗？你准备好降低成本并创造新的收入吗？或者你只是想打个招呼？给我们留言。',
-          form_name: '你叫什么名字？*',
-          form_email: '你的电子邮件是什么？*',
-          form_phone: '你的电话号码是多少？',
-          form_company: '你的公司是什么？',
-          form_message: '在这里写下你的留言',
-          form_terms: '我已阅读并接受条款',
-          form_privacy: '服务与隐私政策*',
-          form_send: '发送消息',
-          accept: '接受',
-          en: 'English',
-          de: 'Deutsch',
-          fr: 'French',
-          notif_msg: '这是一条消息示例，通常用于向访问者或用户提供重要信息。 请单击旁边的按钮以关闭此消息。'
-        },
-        agencyLanding: {
-          header_about: '约',
-          header_services: '服务',
-          'header_our-expertise': '我们的专业知识',
-          header_testimonials: '推荐',
-          'header_case-studies': '案例研究',
-          header_our_office: '我们的办公室',
-          header_contact: '联系人',
-          header_language: '语言',
-          header_theme: '主题模式',
-          header_dark: '黑暗',
-          header_light: '光',
-          banner_title: '创建业务解决方案',
-          banner_subtitle: '我们与国际创业公司合作，帮助企业家长期推出。',
-          banner_button: '写给我们',
-          about_title: '关于我们',
-          about_subtitle: '通过我们的大容量，我们敢说我们是不同的。',
-          about_employee: '员工',
-          about_projects: '项目',
-          about_client: '客户',
-          about_quote: '它留下了苦乐参半的味道，这就是所谓的布鲁斯',
-          services_title: '我们的服务',
-          services_button: '看详情',
-          expertise_title: '我们的专长',
-          expertise_subtitle: '一个成功的团队建立了一个成功的项目。',
-          expertise_paragraph:
-            '这就是为什么我们为您提供您需要时建立的人力资源。我们的on_shoring和近乎离岸的团队都经过培训和监督，作为我们的一部分。您的团队致力于您的项目。团队很灵活！',
-          testimonial_title: '客户见证',
-          case_title: '案例研究',
-          cta_title: '准备好开始？',
-          cta_subtitle: '最好的技术团队不是即刻诞生的，他们是......',
-          cta_btn: '联系我们',
-          office_title: '我们的办公室',
-          office_head: '总部',
-          office_branch: '分公司',
-          footer_paragraph: '我们已经经营了近十年。帮助你是我们的首要任务'
-        }
-      })
+  return new Promise(function(resolve) {
+    resolve({
+      common: {
+        title: 'Un exemple simple',
+        subtitle: "C'est une page blanche . .",
+        error_with_status: "Une erreur s'est produite sur le serveur",
+        '404': 'Cette page est introuvable.',
+        '404_subtitle': 'Vous pouvez soit rester et vous détendre ici, soit revenir au début.',
+        back: 'de retour à la maison',
+        error_without_status: "Une erreur s'est produite sur le serveur",
+        contact_title: 'Devis de projet gratuit',
+        contact_subtitle:
+          'Avez-vous des questions? Êtes-vous prêt à réduire vos coûts et à générer de nouveaux revenus ? Ou vous voulez simplement dire bonjour ? Envoyez-nous un message.',
+        form_name: 'Quel est ton nom? *',
+        form_email: "C'est quoi ton email ? *",
+        form_phone: 'Quel est votre numéro de téléphone?',
+        form_company: 'Quelle est votre entreprise ?',
+        form_message: 'Ecrivez votre message ici',
+        form_terms: "J'ai lu et j'accepte les Conditions d'utilisation",
+        form_privacy: 'Services et politique de confidentialité *',
+        form_send: 'Envoyer le message',
+        accept: 'Accepter',
+        en: 'English',
+        fr: 'French',
+        notif_msg: "Il s'agit d'un exemple de message couramment utilisé pour transmettre des informations importantes aux visiteurs ou aux utilisateurs. Veuillez cliquer sur le bouton à côté pour fermer ce message."
+      },
+      agencyLanding: {
+        header_about: 'sur',
+        header_services: 'prestations de service',
+        'header_our-expertise': 'notre expertise',
+        header_testimonials: 'témoignages',
+        'header_case-studies': 'études de cas',
+        header_our_office: ' notre bureau',
+        header_contact: ' Contactez',
+        header_language: ' Langue',
+        header_theme: 'mode thème',
+        header_dark: 'foncé',
+        header_light: 'lumière',
+        banner_title: "Créer une solution d'entreprise",
+        banner_subtitle: "Expertise qui couvre l'industrie de la technologie, des services informatiques au développement de logiciels, au marketing et à la conception Web, nous sommes la seule entreprise capable de répondre à tous les besoins technologiques de votre entreprise.",
+        banner_button: 'écrivez-nous',
+        about_title: 'À propos de nous',
+        about_subtitle: 'Grâce à notre grande capacité, nous osons dire que nous sommes différents.',
+        about_employee: 'employé',
+        about_projects: 'projets',
+        about_client: 'clients',
+        about_quote: "Il laisse un goût doux-amer qui s'appelle le blues",
+        services_title: 'Nos services',
+        services_button: 'voir le détail',
+        expertise_title: 'notre expertise',
+        expertise_subtitle: 'Un projet réussi se construit avec une équipe performante.',
+        expertise_paragraph:
+          " C'est pourquoi nous mettons à votre disposition les ressources humaines dont vous avez besoin pour vous constituer chaque fois que vous en avez besoin. Nos équipes on_shoring & near offshoring sont formées et supervisées au sein de Nous. Votre équipe est dédiée à vos projets. Et l'équipe est flexible !",
+        testimonial_title: 'témoignages clients',
+        case_title: 'Études de cas',
+        cta_title: "Prêt à commencer? ",
+        cta_subtitle: "L'équipe Best Tech n'est pas née instantanément, elle est faite ...",
+        cta_btn: 'Nous contacter',
+        office_title: 'Notre bureau',
+        office_head: 'Siège social',
+        footer_paragraph: 'Vous aider est notre priorité absolue.'
+      }
     })
-  }
-  
+  })
+}

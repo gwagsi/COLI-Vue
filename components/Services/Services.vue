@@ -95,24 +95,24 @@ export default {
           title: 'App Development',
           desc:
             'We create innovative, effective applications that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.',
-          img: imgApi.agency[4]
+          img: imgApi.agency[1]
         },
         {
           title: 'Search Engine Optimization',
           desc:
             'We can help increase your bottom line with an SEO campaign that is specifically designed for your business. Start earning more qualified search traffic to your website today with our search engine optimization services.',
-          img: imgApi.agency[2]
+          img: imgApi.agency[4]
         },
         {
           title: 'Graphic Design',
           desc: 'From branding, to web design, we got you all covered',
-          img: imgApi.agency[3]
+          img: imgApi.agency[5]
         },
         {
           title: 'Content Creation',
           desc:
             'We will create and write content for your website, social media, and marketing campaigns. Our content will excite the heart and ignite the mind... Expand your reach, build buzz, and make ‘em know that you’re the real deal.',
-          img: imgApi.agency[4]
+          img: imgApi.agency[2]
         }
       ]
     }
