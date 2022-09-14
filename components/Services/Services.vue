@@ -2,26 +2,14 @@
   <div class="root">
     <div class="carousel-handle">
       <div v-if="loaded" class="carousel-wrap">
-        <slick
-          ref="slick"
-          :options="slickOptions"
-        >
+        <slick ref="slick" :options="slickOptions">
           <div class="item">
             <div class="carousel-prop">
               <div />
             </div>
           </div>
-          <div
-            v-for="(item, index) in servicesList"
-            :key="index"
-            class="item"
-          >
-            <card
-              :title="item.title"
-              :desc="item.desc"
-              :img="item.img"
-              :button="$t('agencyLanding.services_button')"
-            />
+          <div v-for="(item, index) in servicesList" :key="index" class="item">
+            <card :title="item.title" :desc="item.desc" :img="item.img" :button="$t('agencyLanding.services_button')" />
           </div>
           <div class="item">
             <div class="carousel-prop">
@@ -34,28 +22,12 @@
     <div class="floating-title">
       <v-container class="fixed-width">
         <div class="title">
-          <title-icon
-            :text="$t('agencyLanding.services_title')"
-            icon="apps"
-            extended
-          />
+          <title-icon :text="$t('agencyLanding.services_title')" icon="apps" extended />
           <nav class="arrow">
-            <v-btn
-              fab
-              small
-              aria-label="next"
-              class="margin"
-              @click="next()"
-            >
+            <v-btn fab small aria-label="next" class="margin" @click="next()">
               <v-icon>mdi-arrow-left</v-icon>
             </v-btn>
-            <v-btn
-              fab
-              small
-              aria-label="prev"
-              class="margin"
-              @click="prev()"
-            >
+            <v-btn fab small aria-label="prev" class="margin" @click="prev()">
               <v-icon>mdi-arrow-right</v-icon>
             </v-btn>
           </nav>
@@ -108,39 +80,38 @@ export default {
       },
       servicesList: [
         {
-          title: 'Lorem Ipsum',
+          title: 'Web Development',
           desc:
-            'Proin ac arcu nisl. Duis eu molestie lectus. Nam quis mauris faucibus, aliquet elit eu, rhoncus ipsum.',
-          img: imgApi.agency[2]
+            'We offer design and application development services for every stage of your project. Our Web Design and development services are client-centric to create a complete and customized solution.',
+          img: imgApi.agency[0]
         },
         {
-          title: 'Etiam rhoncus',
+          title: 'E-commerce',
           desc:
-            'Proin quis pellentesque dui. Ut sed leo neque. Nullam aliquet iaculis neque a commodo.',
+            'We will design & develop an e-commerce website, that will help you triple the sales of your products and services online.',
           img: imgApi.agency[3]
         },
         {
-          title: 'Duis fermentum',
+          title: 'App Development',
           desc:
-            'Quisque consectetur lectus vel orci porttitor gravida ac eu erat. Nullam accumsan nibh tortor.',
+            'We create innovative, effective applications that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.',
           img: imgApi.agency[4]
         },
         {
-          title: 'Lorem Ipsum',
+          title: 'Search Engine Optimization',
           desc:
-            'Proin ac arcu nisl. Duis eu molestie lectus. Nam quis mauris faucibus, aliquet elit eu, rhoncus ipsum.',
+            'We can help increase your bottom line with an SEO campaign that is specifically designed for your business. Start earning more qualified search traffic to your website today with our search engine optimization services.',
           img: imgApi.agency[2]
         },
         {
-          title: 'Etiam rhoncus',
-          desc:
-            'Proin quis pellentesque dui. Ut sed leo neque. Nullam aliquet iaculis neque a commodo.',
+          title: 'Graphic Design',
+          desc: 'From branding, to web design, we got you all covered',
           img: imgApi.agency[3]
         },
         {
-          title: 'Duis fermentum',
+          title: 'Content Creation',
           desc:
-            'Quisque consectetur lectus vel orci porttitor gravida ac eu erat. Nullam accumsan nibh tortor.',
+            'We will create and write content for your website, social media, and marketing campaigns. Our content will excite the heart and ignite the mind... Expand your reach, build buzz, and make ‘em know that you’re the real deal.',
           img: imgApi.agency[4]
         }
       ]
